@@ -1,0 +1,2 @@
+!function(){var n=document.querySelector("#search-box");document.querySelector(".country-info");n.addEventListener("input",(function(n){n.currentTarget.value})),fetch("https://restcountries.com/v2/name/peru?fields=name.official,capital,population,flags.svg,languages").then((function(n){return n.json()})).then((function(n){console.log(n)})).catch((function(n){console.log(n)}))}();
+//# sourceMappingURL=index.e35d4be6.js.map
